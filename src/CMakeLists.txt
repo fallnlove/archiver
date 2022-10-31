@@ -1,0 +1,9 @@
+add_executable(
+        archiver
+        binary_code/binary_code.cpp
+        canonical_code/canonical_code.cpp
+        decode/decode.cpp
+        encode/encode.cpp
+        parser/parser_args.cpp
+        archiver.cpp
+)
